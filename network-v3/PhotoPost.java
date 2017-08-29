@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Other data, such as author and time, are also stored.
  * 
  * @author Michael Kölling and David J. Barnes
- * @version 0.2
+ * @version 0.3
  */
 public class PhotoPost extends Post
 {
@@ -45,5 +45,17 @@ public class PhotoPost extends Post
     public String getCaption()
     {
         return caption;
+    }
+
+    /**
+     * Display the details of this post.
+     * 
+     * (Currently: Print to the text terminal. This is simulating display 
+     * in a web browser for now.)
+     */
+    public void display()
+    {
+        System.out.println("  [" + filename + "]");
+        System.out.println("  " + caption);
     }
 }

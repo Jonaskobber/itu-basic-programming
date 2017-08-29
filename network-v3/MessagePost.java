@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * text message. Other data, such as author and time, are also stored.
  * 
  * @author Michael Kölling and David J. Barnes
- * @version 0.2
+ * @version 0.3
  */
 public class MessagePost extends Post
 {
@@ -32,5 +32,16 @@ public class MessagePost extends Post
     public String getText()
     {
         return message;
+    }
+
+    /**
+     * Display the details of this post.
+     * 
+     * (Currently: Print to the text terminal. This is simulating display 
+     * in a web browser for now.)
+     */
+    public void display()
+    {
+        System.out.println(message);
     }
 }

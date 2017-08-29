@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * provide any search or ordering functions.
  * 
  * @author Michael Kölling and David J. Barnes
- * @version 0.2
+ * @version 0.3
  */
 public class NewsFeed
 {
@@ -36,13 +36,11 @@ public class NewsFeed
     }
 
     /**
-     * Show the news feed. Currently: print the news feed details
-     * to the terminal. (To do: replace this later with display
-     * in web browser.)
+     * Show the news feed. Currently: print the news feed details to the
+     * terminal. (To do: replace this later with display in web browser.)
      */
     public void show()
     {
-        // display all posts
         for(Post post : posts) {
             post.display();
             System.out.println();   // empty line between posts
