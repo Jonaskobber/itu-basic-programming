@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Date
+comment0.text=\n\ A\ Date\ object\ represents\ a\ date\ in\ the\ Gregorian\ calendar,\ and\ allows\ \n\ calculation\ of\ \n\ weekday,\ distance\ between\ two\ dates,\ leap\ year,\ ISO\ week\ number\ \n\ and\ similar.\ \ The\ Gregorian\ calendar\ was\ adopted\ by\ the\ Roman\ \n\ Catholic\ church\ in\ 1582,\ by\ Denmark\ and\ Norway\ in\ 1700,\ and\ by\ Great\n\ Britain\ and\ its\ North\ American\ colonies\ in\ 1752.\n\ \n\ @author\ Peter\ Sestoft\n\ @version\ 2007-09-27\n
+comment1.params=year\ month\ day
+comment1.target=Date(int,\ int,\ int)
+comment1.text=\n\ Construct\ a\ Date,\ such\ as\ new\ Date(1945,\ 12,\ 31)\n
+comment2.params=
+comment2.target=int\ dayNumber()
+comment2.text=\n\ The\ sequence\ number\ of\ the\ day,\ where\ 1\ January\ year\ 1\ is\ day\ number\ 0\n\ \n\ @return\ \ \ \ \ The\ day\ sequence\ number\n
+comment3.params=
+comment3.target=int\ dayInYear()
+comment3.text=\n\ The\ sequence\ number\ of\ the\ day\ within\ the\ year\n\ \n\ @return\ \ \ \ \ The\ day\ sequence\ number\ 1-366\ within\ the\ year\n
+comment4.params=
+comment4.target=boolean\ isLeapyear()
+comment4.text=\n\ Does\ this\ date\ belong\ to\ a\ leap\ year?\n\ \n\ @return\ \ \ \ \ True\ if\ the\ date\ belongs\ to\ a\ leap\ year,\ otherwise\ false.\n
+comment5.params=endDate
+comment5.target=int\ daysTill(Date)
+comment5.text=\n\ The\ number\ of\ days\ from\ this\ date\ to\ the\ given\ end\ date.\n\ \n\ @param\ endDate\ The\ end\ date\n\ @return\ \ \ \ \ The\ number\ of\ days\ from\ this\ date\ to\ the\ given\ end\ date.\n\ \ \ \ \ \ \ \ \ \ \ \ \ Zero\ if\ the\ dates\ are\ identical.\ \ Negative\ if\ endDate\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ precedes\ this\ date.\n
+comment6.params=
+comment6.target=int\ weekDay()
+comment6.text=\n\ The\ weekday\ of\ this\ date\n\ \n\ @return\ \ \ \ \ The\ weekday\ as\ an\ integer\ 0,\ 1,\ ...,\ 6\ where\ Monday\=0\n
+comment7.params=
+comment7.target=int\ weekNumber()
+comment7.text=\n\ The\ ISO\ week\ number\ of\ this\ date\n\ \n\ @return\ \ \ \ \ The\ ISO\ week\ number\ 0,\ 1,\ 2,\ ...,\ 52,\ 53\ where\ week\ 1\ is\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ first\ week\ of\ the\ year\ that\ contains\ a\ Thursday;\n\ \ \ \ \ \ \ \ \ \ \ \ \ the\ days\ before\ that\ belong\ to\ week\ 52\ or\ 53\ of\ the\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ previous\ year,\ but\ we\ put\ them\ in\ week\ 0\ for\ simplicity.\n
+comment8.params=
+comment8.target=Date\ next()
+comment8.text=\ \n\ The\ date\ following\ this\ date\ (NB\:\ current\ implementation\ is\ wrong)\n\n\ @return\ \ \ \ \ \ A\ new\ Date\ object\ representing\ the\ date\ following\ the\ given\ one.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ For\ instance,\ if\ the\ given\ date\ is\ 2007-10-02\ then\ a\ new\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Date\ object\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ representing\ 2007-10-03\ is\ returned,\ if\ the\ given\ date\ is\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ 2007-10-31\ then\ 2007-11-01\ is\ returned,\ and\ if\ the\ given\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ date\ is\ 2007-12-31\ then\ 2008-01-01\ is\ returned.\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\n\ The\ date\ in\ ISO\ format\n\ \n\ @return\ \ \ \ \ The\ date\ in\ ISO\ format,\ such\ as\ "1945-12-31"\n
+numComments=10
