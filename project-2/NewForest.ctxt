@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NewForest
+comment1.params=
+comment1.target=NewForest()
+comment2.params=i\ j
+comment2.target=Tree\ getTree(int,\ int)
+comment3.params=
+comment3.target=void\ growOneYear()
+numComments=4

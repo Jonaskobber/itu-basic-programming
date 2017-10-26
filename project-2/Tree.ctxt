@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ Write\ a\ description\ of\ class\ Tree\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ growOneYear()
+comment2.params=
+comment2.target=void\ show()
+comment3.params=
+comment3.target=double\ getHeight()
+comment4.params=i\ j\ forest
+comment4.target=double\ shadow(int,\ int,\ NewForest)
+comment5.params=i\ j\ forest
+comment5.target=void\ growOneYear(int,\ int,\ NewForest)
+numComments=6

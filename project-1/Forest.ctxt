@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Forest
+comment0.text=\n\ Write\ a\ description\ of\ class\ Forest\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Forest()
+comment2.params=
+comment2.target=void\ initialize()
+comment3.params=
+comment3.target=void\ growOneYear()
+comment4.params=
+comment4.target=void\ show()
+comment5.params=n
+comment5.target=void\ growManyYears(int)
+numComments=6
